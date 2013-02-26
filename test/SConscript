@@ -1,0 +1,11 @@
+Import('env')
+sources = env.Glob('*.c')
+sources.extend(env.Glob('#Unity/src/*.c'))
+sources.extend(env.Glob('#src/vcd_writer.c'))
+sources.extend(env.Glob('#CException/lib/*.c'))
+
+env.Append(CPPPATH='#Unity/src')
+env.Append(CPPPATH='#src/')
+env.Append(CPPPATH='#CException/lib')
+env.Program(target="testrunner", source=sources)
+

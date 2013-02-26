@@ -1,2 +1,7 @@
 tmp/
 .sconsign.dblite
+*.un~
+*.o
+*.a
+*.vcd
+*.swp

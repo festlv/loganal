@@ -1,0 +1,6 @@
+[submodule "CException"]
+	path = CException
+	url = https://github.com/ThrowTheSwitch/CException
+[submodule "Unity"]
+	path = Unity
+	url = https://github.com/ThrowTheSwitch/Unity
